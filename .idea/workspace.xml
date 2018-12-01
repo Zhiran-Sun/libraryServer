@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6175501c-f942-4790-9206-6961b0219903" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../LibraryClient/cypress/integration/addBook.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryClient/cypress/integration/books.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LibraryClient/cypress/integration/home-page.spec.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../LibraryClient/src/assets/CartoonLibrary.jpeg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../LibraryClient/src/assets/libraryLogo.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../LibraryClient/src/assets/smallLogo.png" afterDir="false" />
@@ -13,14 +16,9 @@
       <change afterPath="$PROJECT_DIR$/../LibraryClient/src/components/EditBook.vue" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../LibraryClient/src/services/api.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../LibraryClient/src/services/bookservice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/books.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/books.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/routes/APITesting.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../donationvue-1.0/src/services/api.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../donationvue-1.0/src/services/donationservice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,8 +36,9 @@
           <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -54,12 +53,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="207" />
+          <entry key="js" value="218" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="207" />
+          <entry key="JavaScript" value="218" />
         </counts>
       </usages-collector>
     </session>
@@ -69,7 +68,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="105">
               <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
             </state>
           </provider>
@@ -78,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/books.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
+            <state relative-caret-position="1335">
               <caret line="89" column="67" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="67" />
             </state>
           </provider>
@@ -87,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/routes/APITesting.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="67" column="54" selection-start-line="67" selection-start-column="54" selection-end-line="67" selection-end-column="54" />
+            <state relative-caret-position="98">
+              <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -112,7 +111,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -223,14 +222,16 @@
       <workItem from="1544480934127" duration="4432000" />
       <workItem from="1544491910315" duration="4361000" />
       <workItem from="1544496846917" duration="1734000" />
+      <workItem from="1543670192218" duration="47000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14507000" />
+    <option name="totallyTimeSpent" value="14554000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="757" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1529246" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -291,6 +292,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/books.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="89" column="67" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/models/books.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -298,24 +313,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/books.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="89" column="67" selection-start-line="89" selection-start-column="41" selection-end-line="89" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/routes/APITesting.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="67" column="54" selection-start-line="67" selection-start-column="54" selection-end-line="67" selection-end-column="54" />
+        <state relative-caret-position="98">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
         </state>
       </provider>
     </entry>
