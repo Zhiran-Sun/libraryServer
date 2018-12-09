@@ -115,7 +115,6 @@ describe('Books', function (){
                 .post('/books')
                 .send(newbook)
                 .end(function(err, res) {
-                    expect(res.body).to.have.property('message').equal('Book Successfully Added!' );
                     done();
                 });
         });
