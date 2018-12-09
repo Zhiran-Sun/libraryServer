@@ -1,23 +1,22 @@
 import chai from 'chai';
 import chaiHttp from 'chai-http' ;
-var server = null ; // CHANGED
 let expect = chai.expect;
-var Book = null ; // CHANGED
-import _ from 'lodash';
-import things from 'chai-things'
+import things from 'chai-things';
 chai.use( things);
 chai.use(chaiHttp);
+var server = null ; // CHANGED
+var Book = null ; // CHANGED
 
-describe('Library',  () => {
-    before(function () {
+
+describe('Books', function (){
+    before(function(){
         delete require.cache[require.resolve('../../bin/www')];
         delete require.cache[require.resolve('../../models/books')];
         Book = require('../../models/books');
         server = require('../../bin/www');
     });
     after(function (done) {
-        done();
-        server.close();
+        server.close(done);
     });
     beforeEach(function(){
         var book1 = new Book();
@@ -179,5 +178,4 @@ describe('Library',  () => {
                 });
         });
     });
-
 });
