@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "test": "cross-env NODE_ENV=test mocha --compilers js:babel-core/register test/routes/APITesting.js",
+    "publish-coverage": "nyc report --reporter=text-lcov | coveralls",
     "coverage": "cross-env NODE_ENV=test PORT=4000 nyc mocha test/routes/APITesting.js",
     "postbuild": "npm run server",
     "prebuild": "npm-run-all test clean",
@@ -42,6 +43,7 @@
     "chai-http": "^2.0.1",
     "chai-things": "^0.2.0",
     "clean-webpack-plugin": "^0.1.17",
+    "coveralls": "^2.13.1",
     "cross-env": "^5.2.0",
     "css-loader": "^0.24.0",
     "eslint": "^4.1.1",
