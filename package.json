@@ -3,8 +3,17 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
-    "test": "mocha test/routes/APITesting.js"
+    "lint": "esw  ./test ./routes ./models/ app.js",
+    "lint:watch": "npm run lint -- --watch",
+    "test:watch": "npm run test -- --watch",
+    "server:watch": "cross-env NODE_ENV=dev nodemon --exec babel-node bin/www",
+    "server": "cross-env NODE_ENV=dev PORT=3001 node lib/bin/www",
+    "start": "npm-run-all test build server",
+    "clean": "rimraf ./lib && mkdir lib",
+    "test": "cross-env NODE_ENV=test mocha --compilers js:babel-core/register test/routes/APITesting.js",
+    "postbuild": "npm run server",
+    "prebuild": "npm-run-all test clean",
+    "build": "babel ./ --out-dir lib/ --ignore ./node_modules,./.babelrc,./package.json,./package-lock.json,./test --copy-files"
   },
   "dependencies": {
     "chai": "^4.2.0",
@@ -14,14 +23,23 @@
     "cors": "^2.8.5",
     "debug": "~2.6.9",
     "ejs": "~2.5.7",
+    "eslint": "^5.10.0",
     "express": "~4.16.0",
     "http-errors": "~1.6.2",
+    "lodash": "latest",
     "mongodb": "^3.1.10",
     "mongoose": "^5.3.15",
-    "morgan": "~1.9.0",
-    "lodash": "latest"
+    "morgan": "~1.9.0"
   },
   "devDependencies": {
-    "istanbul": "^0.4.5"
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "cross-env": "^5.2.0",
+    "eslint-watch": "^4.0.2",
+    "istanbul": "^0.4.5",
+    "nodemon": "^1.18.8",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^2.6.2"
   }
 }

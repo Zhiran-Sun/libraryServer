@@ -1,13 +1,24 @@
-let chai = require('chai');
-let chaiHttp = require('chai-http');
-let server = require('../../bin/www');
+import chai from 'chai';
+import chaiHttp from 'chai-http' ;
+var server = null ; // CHANGED
 let expect = chai.expect;
-let Book = require('../../models/books');
-
+var Book = null ; // CHANGED
+import _ from 'lodash';
+import things from 'chai-things'
+chai.use( things);
 chai.use(chaiHttp);
-let _ = require('lodash' );
-chai.use(require('chai-things'));
+
 describe('Library',  () => {
+    before(function () {
+        delete require.cache[require.resolve('../../bin/www')];
+        delete require.cache[require.resolve('../../models/books')];
+        Book = require('../../models/books');
+        server = require('../../bin/www');
+    });
+    after(function (done) {
+        done();
+        server.close();
+    });
     beforeEach(function(){
         var book1 = new Book();
         book1.book_name = "Time Book";

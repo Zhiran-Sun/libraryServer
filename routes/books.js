@@ -1,6 +1,8 @@
 let mongoose = require('mongoose');
-var Book = require('../models/books');
-let express = require('express');
+
+import Book from '../models/books';
+import express from 'express';
+
 let router = express.Router();
 
 var mongodbUri = 'mongodb://admin:123456a@ds139883.mlab.com:39883/librarydb';
