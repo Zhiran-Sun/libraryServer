@@ -56,6 +56,7 @@
         <counts>
           <entry key="js" value="341" />
           <entry key="json" value="66" />
+          <entry key="nycrc" value="1" />
           <entry key="yml" value="21" />
         </counts>
       </usages-collector>
@@ -63,6 +64,7 @@
         <counts>
           <entry key="JSON" value="66" />
           <entry key="JavaScript" value="341" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="YAML" value="21" />
         </counts>
       </usages-collector>
@@ -88,16 +90,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.nycrc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="300">
+              <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -134,9 +136,9 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/test/routes/APITesting.js" />
         <option value="$PROJECT_DIR$/.babelrc" />
-        <option value="$PROJECT_DIR$/.nycrc" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/.nycrc" />
       </list>
     </option>
   </component>
@@ -249,12 +251,12 @@
       <workItem from="1544480934127" duration="4432000" />
       <workItem from="1544491910315" duration="4361000" />
       <workItem from="1544496846917" duration="1734000" />
-      <workItem from="1543670192218" duration="11542000" />
+      <workItem from="1543670192218" duration="11674000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26049000" />
+    <option name="totallyTimeSpent" value="26181000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="757" extended-state="0" />
@@ -484,13 +486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.nycrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -502,6 +497,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.nycrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
         </state>
       </provider>
     </entry>
