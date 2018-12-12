@@ -10,13 +10,8 @@
       <change beforePath="$PROJECT_DIR$/../LibraryClient/cypress/videos/addBook.spec.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryClient/cypress/videos/addBook.spec.js.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LibraryClient/cypress/videos/books.spec.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryClient/cypress/videos/books.spec.js.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LibraryClient/cypress/videos/home-page.spec.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryClient/cypress/videos/home-page.spec.js.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nyc_output/2485b830-cd22-47fb-ae41-7e04f2eb1e69.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nyc_output/d017abc5-83ed-42f8-b40b-9f7c14268650.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.nycrc" beforeDir="false" afterPath="$PROJECT_DIR$/.nycrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/books.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/books.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../beifen/LibraryServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../beifen/LibraryServer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web-app project1/library" beforeDir="false" afterPath="$PROJECT_DIR$/../web-app project1/library" afterDir="false" />
     </list>
@@ -66,14 +61,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="js" value="367" />
-          <entry key="json" value="73" />
+          <entry key="json" value="74" />
           <entry key="nycrc" value="1" />
           <entry key="yml" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="73" />
+          <entry key="JSON" value="74" />
           <entry key="JavaScript" value="367" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="YAML" value="21" />
@@ -96,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+              <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -264,12 +259,12 @@
       <workItem from="1544396737269" duration="30000" />
       <workItem from="1544611315089" duration="166000" />
       <workItem from="1544611530603" duration="1113000" />
-      <workItem from="1544613371077" duration="108000" />
+      <workItem from="1544613371077" duration="367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27992000" />
+    <option name="totallyTimeSpent" value="28251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="757" extended-state="0" />
@@ -507,7 +502,7 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
         </state>
       </provider>
     </entry>
