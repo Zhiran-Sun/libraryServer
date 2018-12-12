@@ -5,7 +5,7 @@ import express from 'express';
 
 let router = express.Router();
 
-var mongodbUri = 'mongodb://admin:123456a@ds139883.mlab.com:39883/librarydb';
+var mongodbUri = 'mongodb://admin:123456a@ds127604.mlab.com:27604/mylib';
 
 mongoose.connect(mongodbUri);
 let db = mongoose.connection;

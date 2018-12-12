@@ -11,12 +11,6 @@
         "lcov",
         "text-summary"
     ],
-    "check-coverage": true,
-    "per-file": false,
-    "lines": 70,
-    "statements": 70,
-    "functions": 30,
-    "branches": 30,
     "sourceMap": false,
     "instrument": false
 }

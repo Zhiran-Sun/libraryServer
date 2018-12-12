@@ -4,7 +4,6 @@
   "private": true,
   "scripts": {
     "test": "cross-env NODE_ENV=test mocha --compilers js:babel-core/register test/routes/APITesting.js",
-    "publish-coverage": "nyc report --reporter=text-lcov | coveralls",
     "coverage": "cross-env NODE_ENV=test PORT=4000 nyc mocha test/routes/APITesting.js",
     "postbuild": "npm run server",
     "prebuild": "npm-run-all test clean",
