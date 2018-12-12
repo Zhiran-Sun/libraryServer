@@ -10,8 +10,6 @@
       <change beforePath="$PROJECT_DIR$/../LibraryClient/cypress/videos/addBook.spec.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryClient/cypress/videos/addBook.spec.js.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LibraryClient/cypress/videos/books.spec.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryClient/cypress/videos/books.spec.js.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../LibraryClient/cypress/videos/home-page.spec.js.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/../LibraryClient/cypress/videos/home-page.spec.js.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../beifen/LibraryServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../beifen/LibraryServer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web-app project1/library" beforeDir="false" afterPath="$PROJECT_DIR$/../web-app project1/library" afterDir="false" />
     </list>
@@ -43,7 +41,7 @@
           <entry key="babelrc" value="2" />
           <entry key="js" value="49" />
           <entry key="json" value="21" />
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
           <entry key="nycrc" value="2" />
           <entry key="www" value="1" />
           <entry key="yml" value="3" />
@@ -53,7 +51,7 @@
         <counts>
           <entry key="JSON" value="23" />
           <entry key="JavaScript" value="50" />
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="YAML" value="3" />
         </counts>
@@ -88,9 +86,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="435">
+                <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="-342">
               <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
             </state>
           </provider>
@@ -127,6 +137,7 @@
         <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/.nycrc" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -152,7 +163,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="757" />
@@ -259,12 +270,12 @@
       <workItem from="1544396737269" duration="30000" />
       <workItem from="1544611315089" duration="166000" />
       <workItem from="1544611530603" duration="1113000" />
-      <workItem from="1544613371077" duration="367000" />
+      <workItem from="1544613371077" duration="506000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28251000" />
+    <option name="totallyTimeSpent" value="28390000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="757" extended-state="0" />
@@ -439,14 +450,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/books.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -492,6 +495,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342">
+          <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -499,10 +509,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="435">
+            <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
